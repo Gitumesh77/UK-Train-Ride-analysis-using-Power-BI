@@ -4,14 +4,18 @@ I recently built a comprehensive UK Train Ride Analysis dashboard using Power BI
 Answer : * The route from Manchester to London Euston tops the chart with 4.6K+ transactions, followed by London Euston to London Paddington and London King's Cross to Liverpool Lime Street.
 * DAX was used to create ranking measures to dynamically show top routes.
 
+
 ✅ What are the peak travel times?
 * Peak hours identified around 08:00 and 18:00, aligning with commuter patterns.
 * DAX time-based grouping helped to analyze hourly distribution efficiently.
+
 
 ✅ How does revenue vary by ticket types and classes?
 * Standard class contributed to 80% of the total revenue (£593K).
 * Advance ticket types generated the most revenue (~41.7%).
 * Revenue measures were calculated using SUMX and CALCULATE with filter context for detailed segmentation.
+
+
 ✅ What is the on-time performance? What are the main contributing factors?
 * On-time %: 86.82%
 * Delayed %: 7.24%, Cancelled %: 5.94%
@@ -23,6 +27,7 @@ Signal Failures (451)
 📈 Summary Metrics:
 💰 Revenue: £742K
 🧾 Transactions: 32K
+
 
 This analysis not only visualizes the data but also provides actionable insights into improving operations and customer satisfaction.
 💡 Tools Used:
